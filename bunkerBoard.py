@@ -12,7 +12,11 @@ class bunkerBoard(object):
 		
 		##Start all visited values false##
 		self.boardVisited = [[False for i in range(0,self.boardHeight)] for j in range(0,self.boardWidth)]
-		
+	
+	##Finds all paths from the nest to the bunker##
+	def findPaths():
+	
+	##Print boards dimensions and the board itself##
 	def printBoard(self):
 		print("Height: ", self.boardHeight)
 		print("Width: ", self.boardWidth)
@@ -22,6 +26,7 @@ class bunkerBoard(object):
 			
 		print(self.boardVisited)
 	
+	##Finds the coordinates of the nest on the board##
 	def findNest(self):
 		self.nestRow = None
 		self.nestCol = None
